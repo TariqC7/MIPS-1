@@ -1,0 +1,34 @@
+.text
+main:
+
+	
+	li $v0, 11
+
+        la $a0, 64 # @ (64)
+        syscall
+
+        li $v0, 1
+
+        addi $a0, $a0, -64 # 0
+        syscall
+
+        addi $a0, $a0, 2 # 2
+        syscall
+
+        addi $a0, $a0, 6 # 8
+        syscall
+
+        addi $a0, $a0, -7 # 1
+        syscall
+
+        addi $a0, $a0, 8 # 9
+        syscall
+        
+	addi $a0, $a0, -3 # 6
+	syscall
+		
+	addi $a0, $a0, 1 # 7
+	syscall
+
+        addi $a0, $a0, -5 # 2
+        syscall
