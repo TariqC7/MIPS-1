@@ -32,3 +32,11 @@ main:
 
         addi $a0, $a0, -5 # 2
         syscall
+	
+	li $v0, 11
+
+	addi $a0, $a0, 8 #LF or new line (10)
+        syscall
+
+    	addi $a0, $a0, 57 # C (67)
+    	syscall
