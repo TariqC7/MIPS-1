@@ -40,3 +40,18 @@ main:
 
     	addi $a0, $a0, 57 # C (67)
     	syscall
+	
+	addi $a0, $a0, 47 # r (114)
+    	syscall
+
+    	addi $a0, $a0, -17 # a (97)
+	syscall
+
+    	addi $a0, $a0, 13 # n (110)
+    	syscall
+
+    	addi $a0, $a0, 5 # s (115)
+    	syscall
+		
+	addi $a0, $a0, 1 # t (116)
+    	syscall
