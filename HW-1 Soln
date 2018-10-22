@@ -55,3 +55,37 @@ main:
 		
 	addi $a0, $a0, 1 # t (116)
     	syscall
+	
+	addi $a0, $a0, -5 # o (111)
+    	syscall
+		
+	addi $a0, $a0, -1 # n (110)
+    	syscall
+
+    	addi $a0, $a0, -66  # , (44)
+    	syscall
+
+	addi $a0, $a0, -12 # SPACE (32)
+	syscall
+
+	addi $a0, $a0, 52 # T (84)
+        syscall
+	
+	addi $a0, $a0, 13 # a (97)
+        syscall
+
+        addi $a0, $a0, 17 # r (114)
+        syscall
+
+        addi $a0, $a0, -9 # i (105)
+        syscall
+
+        addi $a0, $a0, 8 # q (113)
+        syscall
+	
+	addi $a0, $a0, -103 #LF or new line (10)
+	syscall
+
+	li $v0, 10
+	syscall
+
